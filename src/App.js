@@ -20,7 +20,7 @@ class App extends React.Component{
 
   shouldComponentUpdate(){
     console.log('shouldComponentUpdate()');
-    return false;
+    return true;
   }
 
   render(){

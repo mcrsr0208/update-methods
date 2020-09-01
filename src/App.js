@@ -23,6 +23,10 @@ class App extends React.Component{
     return true;
   }
 
+  getSnapshotBeforeUpdate(prevProps,prevState){
+    console.log('getSnapshotBeforeUpdate()');
+  }
+
   render(){
     console.log('render()');
     return(
